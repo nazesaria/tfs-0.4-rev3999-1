@@ -131,7 +131,7 @@
 	sqlPort = 3306
 	sqlUser = "root"
 	sqlPass = "mu9195"
-	sqlDatabase = "forgottenserver"
+	sqlDatabase = "baiak"
 	sqlFile = "theforgottenserver.s3db"
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10

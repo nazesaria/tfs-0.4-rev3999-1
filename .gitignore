@@ -1,10 +1,8 @@
 config.lua
-.gitignore
+data/logs/
 .vscode/
 theforgottenserver
 tfs
+*.swp
+*.log
 *.o
-.vscode/
-theforgottenserver
-tfs
-.gitignore

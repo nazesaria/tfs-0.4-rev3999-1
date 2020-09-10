@@ -1,40 +1,45 @@
-[8/9/2020 0:35:13] > Usando PlainText criptografia
-[8/9/2020 0:35:13] >> Carregando RSA key
-[8/9/2020 0:35:13] >> Iniciando conexao SQL
-[8/9/2020 0:35:13] >> Executando Gerenciador de Banco de Dados
-[8/9/2020 0:35:13] > Sem tabelas para optimizar.
-[8/9/2020 0:35:13] >> Carregando items (OTB)
-[8/9/2020 0:35:13] >> Carregando items (XML)
-[8/9/2020 0:35:14] >> Carregando Grupos
-[8/9/2020 0:35:14] >> Carregando Vocacoes
-[8/9/2020 0:35:14] >> Carregando Outfits
-[8/9/2020 0:35:14] >> Carregando Canal de Chat
-[8/9/2020 0:35:14] >> Carregando Sistema
-[8/9/2020 0:35:14] >> Carregando Mods...
-[8/9/2020 0:35:14] > Loading customspells.xml... done.
-[8/9/2020 0:35:14] > Loading buypremium_command.xml... done.
-[8/9/2020 0:35:14] > Loading custommonsters.xml... done.
-[8/9/2020 0:35:14] > Loading changender_command.xml... done.
-[8/9/2020 0:35:14] > Loading firstitems.xml... done.
-[8/9/2020 0:35:14] > Loading highscorebook.xml... done.
-[8/9/2020 0:35:14] > 6 mods were loaded.
-[8/9/2020 0:35:14] >> Carregando EXP Stages
-[8/9/2020 0:35:14] >> Carregando Monstros
-[8/9/2020 0:35:14] >> Carregando Mapa e Spawns...
-[8/9/2020 0:35:14] > Tamanho do Mapa: 1000x1000.
-[8/9/2020 0:35:14] > Descricao do Mapa: 
-[8/9/2020 0:35:14] "Saved with Remere's Map Editor 1.1.8"
-[8/9/2020 0:35:14] "The Forgotten Server"
-[8/9/2020 0:35:14] > Mapa carregado em: 0.432 segundos.
-[8/9/2020 0:35:14] > Data carregada em: 0.06 segundos.
-[8/9/2020 0:35:15] > Houses carregada em: 0.332 segundos.
-[8/9/2020 0:35:15] > Content unserialization time: 0.002 seconds.
-[8/9/2020 0:35:15] > Carregando Tipo de PVP... Open PvP
-[8/9/2020 0:35:15] > Inicializando estado do jogo e registrando servicos...
-[8/9/2020 0:35:15] > IP do Servidor: 192.168.0.111
-[8/9/2020 0:35:15] > IP local do Servidor: 127.0.1.1	
-[8/9/2020 0:35:15] > Portas do Servidor: 7171	7172	
-[8/9/2020 0:35:15] >> Tudo ocorreu bem ate aqui, o servidor sera iniciado...
-[8/9/2020 0:35:25] >> Forgotten servidor Online!
+[10/9/2020 19:53:27] > Usando PlainText criptografia
+[10/9/2020 19:53:27] >> Carregando RSA key
+[10/9/2020 19:53:27] >> Iniciando conexao SQL
+[10/9/2020 19:53:27] >> Executando Gerenciador de Banco de Dados
+[10/9/2020 19:53:27] > WARNING: You cannot switch from hashed passwords to plain text, change back the passwordType in config.lua to the passwordType you were previously using.
+[10/9/2020 19:53:27] > Sem tabelas para optimizar.
+[10/9/2020 19:53:27] >> Carregando items (OTB)
+[10/9/2020 19:53:27] >> Carregando items (XML)
+[10/9/2020 19:53:27] >> Carregando Grupos
+[10/9/2020 19:53:27] >> Carregando Vocacoes
+[10/9/2020 19:53:27] >> Carregando Outfits
+[10/9/2020 19:53:27] >> Carregando Canal de Chat
+[10/9/2020 19:53:27] >> Carregando Sistema
+[10/9/2020 19:53:28] >> Carregando Mods...
+[10/9/2020 19:53:28] > Loading customspells.xml... done.
+[10/9/2020 19:53:28] > Loading buypremium_command.xml... done.
+[10/9/2020 19:53:28] > Loading custommonsters.xml... done.
+[10/9/2020 19:53:28] > Loading changender_command.xml... done.
+[10/9/2020 19:53:28] > Loading firstitems.xml... done.
+[10/9/2020 19:53:28] > Loading highscorebook.xml... done.
+[10/9/2020 19:53:28] > 6 mods were loaded.
+[10/9/2020 19:53:28] >> Carregando EXP Stages
+[10/9/2020 19:53:28] >> Carregando Monstros
+[10/9/2020 19:53:28] >> Carregando Mapa e Spawns...
+[10/9/2020 19:53:28] > Tamanho do Mapa: 1000x1000.
+[10/9/2020 19:53:28] > Descricao do Mapa: 
+[10/9/2020 19:53:28] "Saved with Remere's Map Editor 1.1.8"
+[10/9/2020 19:53:28] "The Forgotten Server"
+[10/9/2020 19:53:28] > Mapa carregado em: 0.42 segundos.
+[10/9/2020 19:53:28] > Data carregada em: 0.067 segundos.
+[10/9/2020 19:53:28] > Houses carregada em: 0.356 segundos.
+[10/9/2020 19:53:28] > Content unserialization time: 0.002 seconds.
+[10/9/2020 19:53:28] > Carregando Tipo de PVP... Open PvP
+[10/9/2020 19:53:28] > Inicializando estado do jogo e registrando servicos...
+[10/9/2020 19:53:29] > IP do Servidor: 192.168.0.111
+[10/9/2020 19:53:29] > IP local do Servidor: 127.0.1.1	
+[10/9/2020 19:53:29] > Portas do Servidor: 7171	7172	
+[10/9/2020 19:53:29] >> Tudo ocorreu bem ate aqui, o servidor sera iniciado...
+[10/9/2020 19:53:39] >> Forgotten servidor Online!
 
-[8/9/2020 0:35:32] God has logged in.
+[10/9/2020 19:53:39] ADM has logged in.
+[10/9/2020 19:53:42] ADM has logged out.
+[10/9/2020 19:53:42] ADM has logged in.
+[10/9/2020 19:53:45] ADM has logged out.
+[10/9/2020 19:53:46] ADM has logged in.

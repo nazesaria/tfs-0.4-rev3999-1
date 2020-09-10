@@ -28,3 +28,10 @@
 [7/9/2020 20:53:33] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
 [8/9/2020 0:29:19] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
 [8/9/2020 0:35:15] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:32:4] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:34:41] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:35:3] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:36:1] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:41:37] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:44:9] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
+[10/9/2020 19:53:29] (Error - void ServicePort::open(IPAddressList, uint16_t)) NETWORK: bind: Address already in use
