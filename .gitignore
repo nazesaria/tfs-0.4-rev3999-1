@@ -1,2 +1,6 @@
 config.lua
 *.o
+.vscode/
+theforgottenserver
+tfs
+.gitignore
