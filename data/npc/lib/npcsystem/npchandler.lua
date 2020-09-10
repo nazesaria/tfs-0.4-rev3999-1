@@ -80,27 +80,27 @@ if(NpcHandler == nil) then
 		shopItems = nil, -- They must be here since ShopModule uses "static" functions
 		messages = {
 			-- These are the default replies of all npcs. They can/should be changed individually for each npc.
-			[MESSAGE_GREET] 	= 'Bem vindo, |PLAYERNAME|! Eu estive esperando voce!',
-			[MESSAGE_FAREWELL] 	= 'Adeus, |PLAYERNAME|!',
-			[MESSAGE_BUY] 		= 'Voce deseja comprar |ITEMCOUNT| |ITEMNAME| por |TOTALCOST| gold coins?',
-			[MESSAGE_ONBUY] 	= 'Adeus, volte quando quiser.',
+			[MESSAGE_GREET] 	= 'Welcome, |PLAYERNAME|! I have been expecting you.',
+			[MESSAGE_FAREWELL] 	= 'Good bye, |PLAYERNAME|!',
+			[MESSAGE_BUY] 		= 'Do you want to buy |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?',
+			[MESSAGE_ONBUY] 	= 'It was a pleasure doing business with you.',
 			[MESSAGE_BOUGHT] 	= 'Bought |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold.',
-			[MESSAGE_SELL] 		= 'Voce deseja vender |ITEMCOUNT| |ITEMNAME| por |TOTALCOST| gold coins?',
+			[MESSAGE_SELL] 		= 'Do you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold coins?',
 			[MESSAGE_ONSELL] 	= 'Thank you for this |ITEMNAME|, |PLAYERNAME| gold.',
 			[MESSAGE_SOLD]	 	= 'Sold |ITEMCOUNT|x |ITEMNAME| for |TOTALCOST| gold.',
-			[MESSAGE_MISSINGMONEY]	= 'Desculpe, voce não tem nenhum dinheiro.',
-			[MESSAGE_NEEDMONEY] 	= 'Voce não tem dinheiro suficiente.',
+			[MESSAGE_MISSINGMONEY]	= 'Sorry, you don\'t have enough money.',
+			[MESSAGE_NEEDMONEY] 	= 'You do not have enough money.',
 			[MESSAGE_MISSINGITEM] 	= 'You don\'t even have that item, |PLAYERNAME|!',
-			[MESSAGE_NEEDITEM]	= 'Voce não tem este objeto.',
-			[MESSAGE_NEEDSPACE]	= 'Voce não tem cap suficiente.',
-			[MESSAGE_NEEDMORESPACE]	= 'Voce não tem capacidade para todos os itens.',
-			[MESSAGE_IDLETIMEOUT] 	= 'Próximo, por favor!',
-			[MESSAGE_WALKAWAY] 	= 'Até mais!',
+			[MESSAGE_NEEDITEM]	= 'You do not have this object.',
+			[MESSAGE_NEEDSPACE]	= 'You do not have enough capacity.',
+			[MESSAGE_NEEDMORESPACE]	= 'You do not have enough capacity for all items.',
+			[MESSAGE_IDLETIMEOUT] 	= 'Next, please!',
+			[MESSAGE_WALKAWAY] 	= 'How rude!',
 			[MESSAGE_DECLINE]	= 'Not good enough, is it... ?',
-			[MESSAGE_SENDTRADE]	= 'Essa é minha oferta, |PLAYERNAME|. Deseja algo?',
-			[MESSAGE_NOSHOP]	= 'Desculpe, eu não comercializo nada.',
-			[MESSAGE_ONCLOSESHOP]	= 'Obrigado, volte sempre que precisar.',
-			[MESSAGE_ALREADYFOCUSED]= '|PLAYERNAME|! Já estou falando com voce...',
+			[MESSAGE_SENDTRADE]	= 'Here\'s my offer, |PLAYERNAME|. Don\'t you like it?',
+			[MESSAGE_NOSHOP]	= 'Sorry, I\'m not offering anything.',
+			[MESSAGE_ONCLOSESHOP]	= 'Thank you, come back when you want something more.',
+			[MESSAGE_ALREADYFOCUSED]= '|PLAYERNAME|! I am already talking to you...',
 			[MESSAGE_PLACEDINQUEUE] = '|PLAYERNAME|, please wait for your turn. There are |QUEUESIZE| customers before you.'
 		}
 	}
@@ -554,13 +554,13 @@ if(NpcHandler == nil) then
 	end
 
 	-- Returns true if cid is within the talkRadius of this npc.
-	function NpcHandler:isInRange(cid) --edited by Yan Liima
-		if not isPlayer(cid) then
+	function NpcHandler:isInRange(cid)
+		local distance = getDistanceTo(cid) or -1
+		if(distance == -1) then
 			return false
 		end
 
-		local distance = getDistanceBetween(getCreaturePosition(getNpcCid()), getCreaturePosition(cid)) or -1
-		return distance ~= -1 and distance <= self.talkRadius
+		return (distance <= self.talkRadius)
 	end
 
 	-- Resets the npc into it's initial state (in regard of the keyrodhandler).

@@ -1,2 +1,0 @@
-WAR_GUILD = 0
-WAR_ENEMY = 1

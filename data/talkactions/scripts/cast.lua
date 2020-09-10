@@ -1,6 +1,5 @@
 function onSay(cid, words, param, channel)
-if(getConfigValue("enableCast") ~= false) then --By Yan Liima
-	local tmp = string.explode(param, " ", 1)
+	local tmp = param:explode(" ")
 	if not(tmp[1]) then
 		return doPlayerSendCancel(cid, "Parameters needed")
 	end
@@ -75,16 +74,6 @@ if(getConfigValue("enableCast") ~= false) then --By Yan Liima
 			text = text .. "No bans."
 		end
 		doShowTextDialog(cid, 5958, text)
-	elseif tmp[1] == "kick" then --By Yan Liima
-		if not(tmp[2]) then
-			return doPlayerSendCancel(cid, "Specify a spectator that you want to ban.")
-		end
-		
-		if doPlayerAddCastKick(cid, tmp[2]) then
-			doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Spectator '" .. tmp[2] .. "' has been kicked.")
-		else
-			doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "Spectator '" .. tmp[2] .. "' could not be kicked.")
-		end
 	elseif tmp[1] == "mute" then
 		if not(tmp[2]) then
 			return doPlayerSendCancel(cid, "Specify a spectator that you want to mute.")
@@ -141,6 +130,4 @@ if(getConfigValue("enableCast") ~= false) then --By Yan Liima
 		doPlayerSetStorageValue(cid, 656544, os.time()+60)
 	end
 	return true
-end	
-	return false
 end

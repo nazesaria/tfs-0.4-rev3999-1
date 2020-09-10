@@ -5,9 +5,9 @@
 	namelockManager = false
 	newPlayerChooseTown = false
 	newPlayerChooseVoc = true
-	newPlayerSpawnPosX = 302
-	newPlayerSpawnPosY = 48
-	newPlayerSpawnPosZ = 5
+	newPlayerSpawnPosX = 159
+	newPlayerSpawnPosY = 387
+	newPlayerSpawnPosZ = 6
 	newPlayerTownId = 1
 	newPlayerLevel = 1
 	newPlayerMagicLevel = 0
@@ -60,7 +60,7 @@
 	-- loginProtectionPeriod is the famous Tibia anti-magebomb system.
 	-- deathLostPercent set to nil enables manual mode.
 	worldType = "open"
-	protectionLevel = 120
+	protectionLevel = 1
 	pvpTileIgnoreLevelAndVocationProtection = true
 	pzLocked = 60 * 1000
 	huntingDuration = 60 * 1000
@@ -93,7 +93,7 @@
 
 	-- Connection config
 	worldId = 0
-	ip = "127.0.0.1"
+	ip = "192.168.0.111"
 	bindOnlyGlobalAddress = false
 	loginPort = 7171
 	gamePort = 7172
@@ -103,7 +103,7 @@
 	maxPlayers = 1000
 	motd = "Welcome to the Forgotten Server!"
 	displayOnOrOffAtCharlist = false
-	onePlayerOnlinePerAccount = true
+	onePlayerOnlinePerAccount = false
 	allowClones = false
 	serverName = "Forgotten"
 	loginMessage = "Welcome to the Forgotten Server!"
@@ -114,7 +114,7 @@
 	premiumPlayerSkipWaitList = false
 	max_packets_per_second = 1000
 
-    -- Anti-Divulgação
+    -- Anti-Divulgaï¿½ï¿½o
 	advertisingBlock = ".net;servegame;no-ip;.hopto;.net;.info;.org;.zapto;.me;.ddns;.pl;.biz"
 	
 	-- Anti-Push
@@ -126,11 +126,11 @@
 	-- NOTE: sqlFile is used only by sqlite database, and sqlKeepAlive by mysql database.
 	-- To disable sqlKeepAlive such as mysqlReadTimeout use 0 value.
 	-- encryptionType can be plain, md5, sha1, sha256, sha512 or vahash.
-	sqlType = "sqlite"
+	sqlType = "mysql"
 	sqlHost = "127.0.0.1"
 	sqlPort = 3306
 	sqlUser = "root"
-	sqlPass = ""
+	sqlPass = "mu9195"
 	sqlDatabase = "forgottenserver"
 	sqlFile = "theforgottenserver.s3db"
 	sqlKeepAlive = 0
@@ -265,7 +265,7 @@
 
 	-- Limits
 	idleWarningTime = 14 * 60 * 1000
-	idleKickTime = 15 * 60 * 1000
+	idleKickTime = 1500 * 60 * 1000
 	tileLimit = 0
 	protectionTileLimit = 0
 	houseTileLimit = 0
@@ -292,7 +292,7 @@
 	rateSkill = 3.0
 	rateMagic = 3.0
 	rateLoot = 2.0
-	rateSpawn = 1
+	rateSpawn = 10
 
 	-- Monster rates
 	rateMonsterHealth = 1.0
@@ -352,7 +352,8 @@
 	deSpawnRange = 2
 	deSpawnRadius = 50
 	monsterSpawnWalkback = true
-	allowBlockSpawn = true
+	allowBlockSpawn = false
+	magicEffectSpawn = 10
 
 	-- Summons
 	maxPlayerSummons = 2
