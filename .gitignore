@@ -4,3 +4,7 @@ config.lua
 theforgottenserver
 tfs
 *.o
+.vscode/
+theforgottenserver
+tfs
+.gitignore
