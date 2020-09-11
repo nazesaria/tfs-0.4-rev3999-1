@@ -11,7 +11,6 @@ local function pushBack(cid, position, fromPosition, displayMessage)
 	doTeleportThing(cid, fromPosition, false)
 	doSendMagicEffect(position, CONST_ME_MAGIC_BLUE)
 	if(displayMessage) then
-		print("foi")
 		doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "The tile seems to be protected against unwanted intruders.")
 	end
 end
@@ -28,7 +27,6 @@ function onStepIn(cid, item, position, fromPosition)
 	if(item.actionid >= 194 and item.actionid <= 196) then
 		local f = checkCreature[item.actionid - 193]
 		if(f(cid)) then
-			print("aqui8")
 			pushBack(cid, position, fromPosition, false)
 		end
 
@@ -38,7 +36,6 @@ function onStepIn(cid, item, position, fromPosition)
 	if(item.actionid >= 191 and item.actionid <= 193) then
 		local f = checkCreature[item.actionid - 190]
 		if(not f(cid)) then
-			print("aqui7")
 			pushBack(cid, position, fromPosition, false)
 		end
 
@@ -50,7 +47,6 @@ function onStepIn(cid, item, position, fromPosition)
 	end
 
 	if(item.actionid == 189 and not isPremium(cid)) then
-		print("aqui6")
 		pushBack(cid, position, fromPosition, true)
 		return true
 	end
@@ -58,7 +54,6 @@ function onStepIn(cid, item, position, fromPosition)
 	local gender = item.actionid - 186
 	if(isInArray({PLAYERSEX_FEMALE,  PLAYERSEX_MALE, PLAYERSEX_GAMEMASTER}, gender)) then
 		if(gender ~= getPlayerSex(cid)) then
-			print("aqui5")
 			pushBack(cid, position, fromPosition, true)
 		end
 
@@ -68,7 +63,6 @@ function onStepIn(cid, item, position, fromPosition)
 	local skull = item.actionid - 180
 	if(skull >= SKULL_NONE and skull <= SKULL_BLACK) then
 		if(skull ~= getCreatureSkullType(cid)) then
-			print("aqui4")
 			pushBack(cid, position, fromPosition, true)
 		end
 
@@ -78,7 +72,6 @@ function onStepIn(cid, item, position, fromPosition)
 	local group = item.actionid - 150
 	if(group >= 0 and group < 30) then
 		if(group > getPlayerGroupId(cid)) then
-			print("aqui")
 			pushBack(cid, position, fromPosition, true)
 		end
 
@@ -97,7 +90,6 @@ function onStepIn(cid, item, position, fromPosition)
 
 	if(item.actionid >= 1000 and item.actionid <= config.maxLevel) then
 		if(getPlayerLevel(cid) < item.actionid - 1000) then
-			print("aqui2")
 			pushBack(cid, position, fromPosition, true)
 		end
 

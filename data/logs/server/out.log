@@ -1,45 +1,129 @@
-[10/9/2020 19:53:27] > Usando PlainText criptografia
-[10/9/2020 19:53:27] >> Carregando RSA key
-[10/9/2020 19:53:27] >> Iniciando conexao SQL
-[10/9/2020 19:53:27] >> Executando Gerenciador de Banco de Dados
-[10/9/2020 19:53:27] > WARNING: You cannot switch from hashed passwords to plain text, change back the passwordType in config.lua to the passwordType you were previously using.
-[10/9/2020 19:53:27] > Sem tabelas para optimizar.
-[10/9/2020 19:53:27] >> Carregando items (OTB)
-[10/9/2020 19:53:27] >> Carregando items (XML)
-[10/9/2020 19:53:27] >> Carregando Grupos
-[10/9/2020 19:53:27] >> Carregando Vocacoes
-[10/9/2020 19:53:27] >> Carregando Outfits
-[10/9/2020 19:53:27] >> Carregando Canal de Chat
-[10/9/2020 19:53:27] >> Carregando Sistema
-[10/9/2020 19:53:28] >> Carregando Mods...
-[10/9/2020 19:53:28] > Loading customspells.xml... done.
-[10/9/2020 19:53:28] > Loading buypremium_command.xml... done.
-[10/9/2020 19:53:28] > Loading custommonsters.xml... done.
-[10/9/2020 19:53:28] > Loading changender_command.xml... done.
-[10/9/2020 19:53:28] > Loading firstitems.xml... done.
-[10/9/2020 19:53:28] > Loading highscorebook.xml... done.
-[10/9/2020 19:53:28] > 6 mods were loaded.
-[10/9/2020 19:53:28] >> Carregando EXP Stages
-[10/9/2020 19:53:28] >> Carregando Monstros
-[10/9/2020 19:53:28] >> Carregando Mapa e Spawns...
-[10/9/2020 19:53:28] > Tamanho do Mapa: 1000x1000.
-[10/9/2020 19:53:28] > Descricao do Mapa: 
-[10/9/2020 19:53:28] "Saved with Remere's Map Editor 1.1.8"
-[10/9/2020 19:53:28] "The Forgotten Server"
-[10/9/2020 19:53:28] > Mapa carregado em: 0.42 segundos.
-[10/9/2020 19:53:28] > Data carregada em: 0.067 segundos.
-[10/9/2020 19:53:28] > Houses carregada em: 0.356 segundos.
-[10/9/2020 19:53:28] > Content unserialization time: 0.002 seconds.
-[10/9/2020 19:53:28] > Carregando Tipo de PVP... Open PvP
-[10/9/2020 19:53:28] > Inicializando estado do jogo e registrando servicos...
-[10/9/2020 19:53:29] > IP do Servidor: 192.168.0.111
-[10/9/2020 19:53:29] > IP local do Servidor: 127.0.1.1	
-[10/9/2020 19:53:29] > Portas do Servidor: 7171	7172	
-[10/9/2020 19:53:29] >> Tudo ocorreu bem ate aqui, o servidor sera iniciado...
-[10/9/2020 19:53:39] >> Forgotten servidor Online!
+[10/9/2020 20:44:23] > Usando PlainText criptografia
+[10/9/2020 20:44:23] >> Carregando RSA key
+[10/9/2020 20:44:23] >> Iniciando conexao SQL
+[10/9/2020 20:44:23] >> Executando Gerenciador de Banco de Dados
+[10/9/2020 20:44:23] > WARNING: You cannot switch from hashed passwords to plain text, change back the passwordType in config.lua to the passwordType you were previously using.
+[10/9/2020 20:44:23] > Sem tabelas para optimizar.
+[10/9/2020 20:44:23] >> Carregando items (OTB)
+[10/9/2020 20:44:23] >> Carregando items (XML)
+[10/9/2020 20:44:23] >> Carregando Grupos
+[10/9/2020 20:44:23] >> Carregando Vocacoes
+[10/9/2020 20:44:23] >> Carregando Outfits
+[10/9/2020 20:44:23] >> Carregando Canal de Chat
+[10/9/2020 20:44:23] >> Carregando Sistema
 
-[10/9/2020 19:53:39] ADM has logged in.
-[10/9/2020 19:53:42] ADM has logged out.
-[10/9/2020 19:53:42] ADM has logged in.
-[10/9/2020 19:53:45] ADM has logged out.
-[10/9/2020 19:53:46] ADM has logged in.
+[10/9/2020 20:44:23] [Error - Spell Interface] 
+[10/9/2020 20:44:23] data/spells/scripts/teste.lua
+[10/9/2020 20:44:23] Description: 
+[10/9/2020 20:44:23] (luaSetCombatFormula) Combat not found
+[10/9/2020 20:44:23] >> Carregando Mods...
+[10/9/2020 20:44:23] > Loading customspells.xml... done.
+[10/9/2020 20:44:23] > Loading buypremium_command.xml... done.
+[10/9/2020 20:44:23] > Loading custommonsters.xml... done.
+[10/9/2020 20:44:23] > Loading changender_command.xml... done.
+[10/9/2020 20:44:23] > Loading firstitems.xml... done.
+[10/9/2020 20:44:23] > Loading highscorebook.xml... done.
+[10/9/2020 20:44:23] > 6 mods were loaded.
+[10/9/2020 20:44:23] >> Carregando EXP Stages
+[10/9/2020 20:44:23] >> Carregando Monstros
+[10/9/2020 20:44:23] >> Carregando Mapa e Spawns...
+[10/9/2020 20:44:23] > Tamanho do Mapa: 1000x1000.
+[10/9/2020 20:44:23] > Descricao do Mapa: 
+[10/9/2020 20:44:23] "Saved with Remere's Map Editor 3.6"
+[10/9/2020 20:44:23] "The Forgotten Server"
+[10/9/2020 20:44:24] > Mapa carregado em: 0.42 segundos.
+[10/9/2020 20:44:24] > Data carregada em: 0.061 segundos.
+[10/9/2020 20:44:24] > Houses carregada em: 0.441 segundos.
+[10/9/2020 20:44:24] > Content unserialization time: 0.004 seconds.
+[10/9/2020 20:44:24] > Carregando Tipo de PVP... Open PvP
+[10/9/2020 20:44:24] > Inicializando estado do jogo e registrando servicos...
+[10/9/2020 20:44:24] > IP do Servidor: 192.168.0.111
+[10/9/2020 20:44:24] > IP local do Servidor: 127.0.1.1	
+[10/9/2020 20:44:24] > Portas do Servidor: 7171	7172	
+[10/9/2020 20:44:24] >> Tudo ocorreu bem ate aqui, o servidor sera iniciado...
+[10/9/2020 20:44:34] >> Forgotten servidor Online!
+
+[10/9/2020 21:1:23] > Salvando servidor...
+[10/9/2020 21:1:23] > SAVE: Completo em 0.098 segundos usando binary casa storage.
+[10/9/2020 21:8:20] ADM has logged in.
+[10/9/2020 21:8:27] [Error - MoveEvent::executeStep] Call stack overflow.
+[10/9/2020 21:8:27] [Error - MoveEvent::executeStep] Call stack overflow.
+[10/9/2020 21:8:45] [Error - MoveEvent::executeStep] Call stack overflow.
+[10/9/2020 21:8:45] [Error - MoveEvent::executeStep] Call stack overflow.
+[10/9/2020 21:9:41] ADM has logged out.
+[10/9/2020 21:9:47] ADM has logged in.
+[10/9/2020 21:9:55] [Error - MoveEvent::executeStep] Call stack overflow.
+[10/9/2020 21:9:55] [Error - MoveEvent::executeStep] Call stack overflow.
+[10/9/2020 21:13:41] > Loading customspells.xml... done.
+[10/9/2020 21:13:41] > Loading buypremium_command.xml... done.
+[10/9/2020 21:13:41] > Loading custommonsters.xml... done.
+[10/9/2020 21:13:41] > Loading changender_command.xml... done.
+[10/9/2020 21:13:41] > Loading firstitems.xml... done.
+[10/9/2020 21:13:41] > Loading highscorebook.xml... done.
+[10/9/2020 21:13:41] > 6 mods were loaded.
+[10/9/2020 21:14:20] > Loading customspells.xml... done.
+[10/9/2020 21:14:20] > Loading buypremium_command.xml... done.
+[10/9/2020 21:14:20] > Loading custommonsters.xml... done.
+[10/9/2020 21:14:20] > Loading changender_command.xml... done.
+[10/9/2020 21:14:20] > Loading firstitems.xml... done.
+[10/9/2020 21:14:20] > Loading highscorebook.xml... done.
+[10/9/2020 21:14:20] > 6 mods were loaded.
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Error - LuaInterface::loadFile] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] [Warning - Event::loadScript] Cannot load script (data/movements/scripts/tiles.lua)
+[10/9/2020 21:15:6] data/movements/scripts/tiles.lua:15: syntax error near 'doPlayerSendTextMessage'
+[10/9/2020 21:15:6] > Loading customspells.xml... done.
+[10/9/2020 21:15:6] > Loading buypremium_command.xml... done.
+[10/9/2020 21:15:6] > Loading custommonsters.xml... done.
+[10/9/2020 21:15:6] > Loading changender_command.xml... done.
+[10/9/2020 21:15:6] > Loading firstitems.xml... done.
+[10/9/2020 21:15:6] > Loading highscorebook.xml... done.
+[10/9/2020 21:15:6] > 6 mods were loaded.
+[10/9/2020 21:15:22] > Loading customspells.xml... done.
+[10/9/2020 21:15:22] > Loading buypremium_command.xml... done.
+[10/9/2020 21:15:22] > Loading custommonsters.xml... done.
+[10/9/2020 21:15:22] > Loading changender_command.xml... done.
+[10/9/2020 21:15:22] > Loading firstitems.xml... done.
+[10/9/2020 21:15:22] > Loading highscorebook.xml... done.
+[10/9/2020 21:15:22] > 6 mods were loaded.
+[10/9/2020 21:16:10] > Loading customspells.xml... done.
+[10/9/2020 21:16:10] > Loading buypremium_command.xml... done.
+[10/9/2020 21:16:10] > Loading custommonsters.xml... done.
+[10/9/2020 21:16:10] > Loading changender_command.xml... done.
+[10/9/2020 21:16:10] > Loading firstitems.xml... done.
+[10/9/2020 21:16:10] > Loading highscorebook.xml... done.
+[10/9/2020 21:16:10] > 6 mods were loaded.
+[10/9/2020 21:16:23] > Salvando servidor...
+[10/9/2020 21:16:23] > SAVE: Completo em 0.086 segundos usando binary casa storage.

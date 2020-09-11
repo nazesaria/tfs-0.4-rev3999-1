@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <spells>
+	<instant name="Teste" words="_teste" lvl="1" maglv="1" mana="25" exhaustion="1000" prem="0" needlearn="0" blockwalls="0" aggressive="1" event="script" value="teste.lua">
+		<vocation id="0"/>
+	</instant>
 	<!-- Attack Runes -->
 	<rune name="Poison Field" id="2285" allowfaruse="1" charges="3" lvl="14" maglv="0" exhaustion="2000" blocktype="solid" event="script" value="attack/poison field.lua"/>
 	<rune name="Poison Bomb" id="2286" allowfaruse="1" charges="2" lvl="25" maglv="4" exhaustion="2000" blocktype="solid" event="script" value="attack/poison bomb.lua"/>
