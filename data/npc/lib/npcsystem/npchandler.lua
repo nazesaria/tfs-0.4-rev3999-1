@@ -553,9 +553,36 @@ if(NpcHandler == nil) then
 		end
 	end
 
+	function isValidPosition(position)
+		return (isNumeric(position.x .. position.y .. position.z) and position.x > 0
+			and position.y > 0 and position.z >= 0 and position.z <= 15)
+	end
+
+	function getNpcDistanceTo(id)
+		errors(false)
+		local thing = getThing(id)
+	
+		errors(true)
+		if(thing.uid == 0) then
+			return nil
+		end
+	
+		local c = getCreaturePosition(id)
+		if(not isValidPosition(c)) then
+			return nil
+		end
+	
+		local s = getCreaturePosition(getNpcId())
+		if(not isValidPosition(s) or s.z ~= c.z) then
+			return nil
+		end
+	
+		return math.max(math.abs(s.x - c.x), math.abs(s.y - c.y))
+	end
+
 	-- Returns true if cid is within the talkRadius of this npc.
 	function NpcHandler:isInRange(cid)
-		local distance = getDistanceTo(cid) or -1
+		local distance = getNpcDistanceTo(cid) or -1
 		if(distance == -1) then
 			return false
 		end
