@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
 	<action default="yes" event="script" value="default.lua"/>
+	<action fromaid="7771" toaid="7782" event="script" value="teste.lua"/>
 
 	<!-- Quests -->
 	<action actionid="2000" event="script" value="quests/system.lua"/>

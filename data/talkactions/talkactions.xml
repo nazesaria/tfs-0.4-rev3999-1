@@ -66,7 +66,7 @@
 	<talkaction words="!pvp;/pvp" event="script" value="pvp.lua"/>
 	<talkaction words="!q;/q" event="script" value="money.lua"/>
 	<talkaction words="!serverinfo;/serverinfo" event="script" value="serverinfo.lua"/>
-	<talkaction words="!commands;/commands" event="script" value="commands.lua"/>
+	<!-- <talkaction words="!commands;/commands" event="script" value="commands.lua"/> -->
 	<talkaction words="!software;/software" event="function" value="software"/>
 	<talkaction words="!cast;/cast" event="script" value="cast.lua"/>
 
@@ -84,4 +84,7 @@
 	<talkaction words="!joinguild;/joinguild" event="function" value="guildJoin"/>
 	<talkaction words="/war" channel="0" event="script" value="war.lua"/>
 	<talkaction words="/balance" channel="0" event="script" value="balance.lua"/>
+
+	<!-- Teste -->
+	<talkaction words="/teste;/test;!teste;!test" event="script" value="teste.lua"/>
 </talkactions>

@@ -7767,7 +7767,7 @@
 	<item id="4855" article="a" name="big blue demona book">
 		<attribute key="weight" value="1300" />
 		<attribute key="writeable" value="1" />
-		<attribute key="maxTextLen" value="1024" />
+		<attribute key="maxTextLen" value="512" />
 	</item>
 	<item id="4856" article="an" name="ice pick">
 		<attribute key="description" value="It might come in handy in cold regions." />

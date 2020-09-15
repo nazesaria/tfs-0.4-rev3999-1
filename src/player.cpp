@@ -36,6 +36,8 @@
 #include "game.h"
 #include "chat.h"
 
+using namespace stdd;
+
 extern ConfigManager g_config;
 extern Game g_game;
 extern Chat g_chat;

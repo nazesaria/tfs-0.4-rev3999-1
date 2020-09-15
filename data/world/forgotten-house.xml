@@ -112,4 +112,5 @@
 	<house name="Armory Flat 2" houseid="112" entryx="185" entryy="376" entryz="6" rent="0" townid="2" size="20" />
 	<house name="teste" houseid="113" entryx="507" entryy="496" entryz="7" rent="0" townid="6" size="11" />
 	<house name="teste2" houseid="114" entryx="507" entryy="492" entryz="7" rent="0" townid="6" size="11" />
+	<house name="test3" houseid="115" entryx="486" entryy="493" entryz="7" rent="0" townid="6" size="8" />
 </houses>

@@ -162,7 +162,7 @@
 	houseNeedPremium = true
 	bedsRequirePremium = true
 	levelToBuyHouse = 1
-	housesPerAccount = 0
+	housesPerAccount = 1
 	houseRentAsPrice = false
 	housePriceAsRent = false
 	housePriceEachSquare = 1000
