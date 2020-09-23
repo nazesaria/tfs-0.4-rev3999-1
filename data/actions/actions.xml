@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <actions>
+
 	<action default="yes" event="script" value="default.lua"/>
 	<action fromaid="7771" toaid="7782" event="script" value="teste.lua"/>
 
@@ -11,7 +12,7 @@
 	<!-- Weapons enchanting (Gems) -->
 	<action itemid="2146" event="script" value="other/enchanting.lua"/>
 	<action itemid="2147" event="script" value="other/enchanting.lua"/>
-	<action itemid="2150" event="script" value="other/enchanting.lua"/>
+	<action itemid="2150" event="script" value="catchrace.lua"/>
 	<action itemid="2149" event="script" value="other/enchanting.lua"/>
 	<action itemid="7759" event="script" value="other/enchanting.lua"/>
 	<action itemid="7760" event="script" value="other/enchanting.lua"/>

@@ -1,3 +1,5 @@
+dofile('data/lib/KenfiLib/lib.lua')
+
 function doPlayerGiveItem(cid, itemid, amount, subType)
 	local item = 0
 	if(isItemStackable(itemid)) then

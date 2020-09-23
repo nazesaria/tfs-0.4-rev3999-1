@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <movements>
 	<!-- Decaying tiles -->
+	<movevent type="StepIn" actionid="7778" event="script" value="teste.lua"/>
 	<movevent type="StepIn" itemid="293" event="script" value="decay.lua"/>
 	<movevent type="StepIn" itemid="461" event="script" value="decay.lua"/>
 
